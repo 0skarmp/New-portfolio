@@ -11,8 +11,8 @@ function Logo({ className = "", style = {}, size, setDidLoad, isDark }) {
     const sizeClass = `logo-wrapper-size-${size}`
 
     const logoFile = isDark === false
-        ? `/logos/logo-lumdev-light.svg`
-        : `/logos/logo-lumdev-dark.svg`
+        ? `/logos/logo-oskar-dev-light.svg`
+        : `/logos/logo-oskar-dev-dark.svg`
 
     return (
         <div className={`logo-wrapper ${sizeClass} ${className}`}

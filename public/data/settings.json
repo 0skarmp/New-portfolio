@@ -5,18 +5,16 @@
         "stayOnThePreloaderScreen": false,
         "version": "2.0.3"
     },
-
     "preloaderSettings": {
         "enabled": true,
-        "title": "LumDev <strong>Portfolio</strong>",
-        "subtitle": "Bienvenido a mi Portafolio",
+        "title": "Oskar <strong>Dev</strong>",
+        "subtitle": "Full Stack Developer",
         "logoOffset": {
             "right": 14,
             "top": 2,
             "bottom": 0
         }
     },
-
     "templateSettings": {
         "animatedCursorEnabled": true,
         "backgroundStyle": "animated",
@@ -25,7 +23,6 @@
         "fullscreenEnabled": true,
         "showSpinnerOnThemeChange": false
     },
-
     "supportedLanguages": [
         {
             "name": "English",
@@ -38,15 +35,18 @@
             "flagUrl": "images/flags/es.png"
         }
     ],
-
     "supportedThemes": [
         {
             "id": "dark",
             "icon": "fa-solid fa-moon",
             "dark": true,
             "locales": {
-                "en": {"name": "Dark Mode"},
-                "es": {"name": "Modo Oscuro"}
+                "en": {
+                    "name": "Dark Mode"
+                },
+                "es": {
+                    "name": "Modo Oscuro"
+                }
             }
         },
         {
@@ -54,49 +54,24 @@
             "icon": "fa-solid fa-sun",
             "dark": false,
             "locales": {
-                "en": {"name": "Light Mode"},
-                "es": {"name": "Modo Claro"}
+                "en": {
+                    "name": "Light Mode"
+                },
+                "es": {
+                    "name": "Modo Claro"
+                }
             }
         }
     ],
-
     "consoleMessageForDevelopers": {
-        "title": "\uD83D\uDDA5️ Hey there, fellow developer!",
+        "title": "Oskar Dev Portfolio",
         "items": [
             {
-                "description": "This is an open-source template based on the React framework.",
+                "description": "Personal portfolio built with React and Vite.",
                 "list": [],
                 "listStyle": "none"
-            },
-            {
-                "description": "Other frameworks and plugins used in the project include:",
-                "list": [
-                    "Bootstrap 5: https://getbootstrap.com/",
-                    "Smooth Scrollbar: https://tinyurl.com/4yhm4n4a",
-                    "Swiper: https://swiperjs.com/",
-                    "EmailJS: https://www.emailjs.com/",
-                    "Font Awesome: https://fontawesome.com/",
-                    "PrimeIcons: https://primefaces.org/"
-                ],
-                "listStyle": "bulleted"
-            },
-            {
-                "description": "Clone it and customize it for your own portfolio:",
-                "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
-                ],
-                "listStyle": "none"
-            },
-            {
-                "description": "Developer Info:",
-                "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
-                ],
-                "listStyle": "bulleted"
             }
         ]
     },
-
     "imagesToCache": []
 }

@@ -15,7 +15,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -30,9 +29,18 @@
                     "id": 1,
                     "img": "",
                     "faIcon": "fa-solid fa-table-columns",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "{{Website}} design",
@@ -45,48 +53,21 @@
                     }
                 },
                 {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-solid fa-database",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
-                    "locales": {
-                        "en": {
-                            "title": "{{Database}} management",
-                            "text": "I can handle your data effectively and efficiently!"
-                        },
-                        "es": {
-                            "title": "Gestión de {{bases de datos}}",
-                            "text": "¡Puedo manejar sus datos de manera efectiva y eficiente!"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "img": "",
-                    "faIcon": "fa-solid fa-mobile-screen-button",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
-                    "locales": {
-                        "en": {
-                            "title": "{{App}} creation",
-                            "text": "I can make creative and innovative apps!"
-                        },
-                        "es": {
-                            "title": "Creación de {{aplicaciones}}",
-                            "text": "¡Puedo hacer aplicaciones creativas e innovadoras!"
-                        }
-                    }
-                },
-                {
                     "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-window-restore",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "{{REST}} APIs",
@@ -102,9 +83,18 @@
                     "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-screwdriver-wrench",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "link": {"href": "", "tooltipString": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "{{Hardware}} & Software",
@@ -118,13 +108,16 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Backend Stack"},
-                "es": {"title": "Stack de Backend"}
+                "en": {
+                    "title": "Backend Stack"
+                },
+                "es": {
+                    "title": "Stack de Backend"
+                }
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -138,17 +131,23 @@
                     "id": 1,
                     "img": "",
                     "faIcon": "devicon-typescript-plain",
-                    "faIconColors": {"bg": "", "fill": "#3178C6"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3178C6"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "TypeScript",
-                            "text": "The language I use the most right now on the server side. I apply it with NestJS to build typed, scalable APIs with safer and more maintainable code.",
+                            "text": "The language I use the most right now on the server side.",
                             "level": ""
                         },
                         "es": {
-                            "text": "El lenguaje que más utilizo actualmente del lado del servidor. Lo aplico con NestJS para construir APIs tipadas y escalables con código más seguro y mantenible."
+                            "text": "El lenguaje que más utilizo actualmente del lado del servidor."
                         }
                     }
                 },
@@ -156,8 +155,14 @@
                     "id": 2,
                     "img": "",
                     "faIcon": "fa-brands fa-node-js",
-                    "faIconColors": {"bg": "", "fill": "#339933"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#339933"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -166,97 +171,55 @@
                             "level": ""
                         },
                         "es": {
-                            "text": "Fue mi primera herramienta para el desarrollo backend, construyendo APIs REST durante mi primer año. Sentó las bases de mi experiencia en el ecosistema JavaScript del lado del servidor."
+                            "text": "Fue mi primera herramienta para el desarrollo backend, construyendo APIs REST."
                         }
                     }
                 },
                 {
                     "id": 3,
                     "img": "",
-                    "faIcon": "devicon-nestjs-original",
-                    "faIconColors": {"bg": "", "fill": "#E0234E"},
-                    "date": {"year": null, "month": null},
+                    "faIcon": "devicon-dotnetcore-plain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#512BD4"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "NestJS",
-                            "text": "My main framework for real client projects. I use it when the project requires a robust architecture, especially in large-scale applications with multiple modules.",
+                            "title": ".NET",
+                            "text": "I recently started working with .NET in a real project, applying C# and .NET Core for backend development.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Mi framework principal para proyectos reales con clientes. Lo utilizo cuando el proyecto requiere una arquitectura robusta, especialmente en aplicaciones grandes con múltiples módulos."
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "devicon-mysql-plain",
-                    "faIconColors": {"bg": "", "fill": "#4479A1"},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "MySQL",
-                            "text": "I use it in real client projects, managing relational databases with well-structured schemas for production applications.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Lo utilizo en proyectos reales con clientes, gestionando bases de datos relacionales con esquemas bien estructurados para aplicaciones en producción."
+                            "text": "Recién empecé a trabajar con .NET en un proyecto real, aplicando C# y .NET Core para desarrollo backend."
                         }
                     }
                 },
                 {
                     "id": 5,
                     "img": "",
-                    "faIcon": "devicon-postgresql-plain",
-                    "faIconColors": {"bg": "", "fill": "#336791"},
-                    "date": {"year": null, "month": null},
+                    "faIcon": "devicon-python-plain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#3776AB"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "PostgreSQL",
-                            "text": "My go-to relational database for production projects, connecting it to services like Supabase or AWS Aurora depending on the project's requirements.",
+                            "title": "Python",
+                            "text": "I use Python for backend scripting, automation, API work, and practical server-side problem solving.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Mi base de datos relacional principal para proyectos en producción, conectándola a servicios como Supabase o Aurora de AWS según los requerimientos del proyecto."
-                        }
-                    }
-                },
-                {
-                    "id": 6,
-                    "img": "",
-                    "faIcon": "devicon-mongodb-plain",
-                    "faIconColors": {"bg": "", "fill": "#47A248"},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "text": "I used it mainly in practice and learning projects, working with flexible schemas and non-relational data to understand its advantages over SQL databases.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Lo utilicé principalmente en proyectos de práctica y aprendizaje, trabajando con esquemas flexibles y datos no relacionales para entender sus ventajas frente a bases SQL."
-                        }
-                    }
-                },
-                {
-                    "id": 7,
-                    "img": "",
-                    "faIcon": "devicon-supabase-original",
-                    "faIconColors": {"bg": "", "fill": "#3ECF8E"},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Supabase",
-                            "text": "I integrate it as a backend-as-a-service in real projects, leveraging its PostgreSQL core for authentication, storage, and real-time APIs without managing complex infrastructure.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Lo integro como backend-as-a-service en proyectos reales, aprovechando su base PostgreSQL para autenticación, almacenamiento y APIs en tiempo real sin gestionar infraestructura compleja."
+                            "text": "Utilizo Python para scripting backend, automatización, trabajo con APIs y resolución práctica de problemas del lado del servidor."
                         }
                     }
                 },
@@ -264,17 +227,23 @@
                     "id": 8,
                     "img": "",
                     "faIcon": "fa-brands fa-docker",
-                    "faIconColors": {"bg": "", "fill": "#2496ED"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#2496ED"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Docker",
-                            "text": "I've used it to a lesser extent for containerizing applications and maintaining consistency between development and production environments.",
+                            "text": "I've used it to a lesser extent for containerizing services and maintaining consistency between development and production environments.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Lo he utilizado en menor medida para contenedorizar aplicaciones y mantener consistencia entre entornos de desarrollo y producción."
+                            "text": "Lo he utilizado en menor medida para contenedorizar servicios y mantener consistencia entre entornos de desarrollo y producción."
                         }
                     }
                 },
@@ -282,8 +251,14 @@
                     "id": 9,
                     "img": "",
                     "faIcon": "fa-brands fa-git",
-                    "faIconColors": {"bg": "", "fill": "#F05032"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F05032"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -300,8 +275,14 @@
                     "id": 10,
                     "img": "",
                     "faIcon": "devicon-postman-plain",
-                    "faIconColors": {"bg": "", "fill": "#FF6C37"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#FF6C37"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -318,29 +299,39 @@
                     "id": 11,
                     "img": "",
                     "faIcon": "devicon-swagger-plain",
-                    "faIconColors": {"bg": "", "fill": "#85EA2D", "fillLight": "#5a9e1e"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#85EA2D",
+                        "fillLight": "#5a9e1e"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Swagger",
-                            "text": "I integrate it into my APIs to generate automatic and interactive documentation. It's a tool I use in almost all my backend projects to streamline frontend collaboration.",
+                            "text": "I integrate it into my APIs to generate automatic and interactive documentation.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Lo integro en mis APIs para generar documentación automática e interactiva. Es una herramienta que uso en casi todos mis proyectos backend para facilitar la colaboración con el frontend."
+                            "text": "Lo integro en mis APIs para generar documentación automática e interactiva."
                         }
                     }
                 }
             ]
         },
-
         {
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Frontend Stack"},
-                "es": {"title": "Stack de Frontend"}
+                "en": {
+                    "title": "Frontend Stack"
+                },
+                "es": {
+                    "title": "Stack de Frontend"
+                }
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -354,8 +345,14 @@
                     "id": 1,
                     "img": "",
                     "faIcon": "fa-brands fa-html5",
-                    "faIconColors": {"bg": "", "fill": "#E34F26"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E34F26"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -364,7 +361,7 @@
                             "level": ""
                         },
                         "es": {
-                            "text": "Aunque actualmente la utilizo con menor frecuencia, recurro a HTML para la construcción de landing pages. Mantengo sólidos conocimientos en estructura semántica y accesibilidad."
+                            "text": "Aunque actualmente la utilizo con menor frecuencia, recurro a HTML para la construcción de landing pages."
                         }
                     }
                 },
@@ -372,8 +369,14 @@
                     "id": 2,
                     "img": "",
                     "faIcon": "fa-brands fa-css3-alt",
-                    "faIconColors": {"bg": "", "fill": "#1572B6"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1572B6"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -382,7 +385,7 @@
                             "level": ""
                         },
                         "es": {
-                            "text": "Al igual que HTML, su uso directo es menos frecuente en mis proyectos actuales, pero mantengo los conocimientos para estilizar y maquetar cuando se requiere, especialmente en landing pages."
+                            "text": "Al igual que HTML, su uso directo es menos frecuente en mis proyectos actuales."
                         }
                     }
                 },
@@ -390,53 +393,72 @@
                     "id": 3,
                     "img": "",
                     "faIcon": "fa-brands fa-js",
-                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#F7DF1E",
+                        "fillLight": "#a69617"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "JavaScript ES6+",
-                            "text": "It was the foundation of my learning and I used it extensively in my early days. Today I still use it indirectly through frameworks like React and Next.js in all my projects.",
+                            "text": "It was the foundation of my learning and I used it extensively in my early days. Today I still use it through frameworks like Vue, Angular, and Next.js.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Fue la base de mi aprendizaje y lo utilicé intensamente en mis inicios. Hoy lo sigo usando indirectamente a través de frameworks como React y Next.js en todos mis proyectos."
+                            "text": "Fue la base de mi aprendizaje y lo utilicé intensamente en mis inicios. Hoy lo sigo usando a través de frameworks como Vue, Angular y Next.js."
                         }
                     }
                 },
                 {
                     "id": 4,
                     "img": "",
-                    "faIcon": "devicon-typescript-plain",
-                    "faIconColors": {"bg": "", "fill": "#3178C6"},
-                    "date": {"year": null, "month": null},
+                    "faIcon": "devicon-vuejs-plain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#42B883"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "TypeScript",
-                            "text": "The language I use the most on the client side as well. I apply it with React, Next.js, and React Native to build typed, robust, and maintainable interfaces.",
+                            "title": "Vue.js",
+                            "text": "My main framework for real client projects; I use it to build reactive, component-based frontends.",
                             "level": ""
                         },
                         "es": {
-                            "text": "El lenguaje que más utilizo también del lado del cliente. Lo aplico con React, Next.js y React Native para construir interfaces tipadas, robustas y mantenibles."
+                            "text": "Mi framework principal para proyectos reales con clientes."
                         }
                     }
                 },
                 {
                     "id": 5,
                     "img": "",
-                    "faIcon": "fa-brands fa-react",
-                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
-                    "date": {"year": null, "month": null},
+                    "faIcon": "devicon-angularjs-plain",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#DD0031"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
-                            "title": "React",
-                            "text": "One of the technologies I use most currently. I build dynamic interfaces with hooks, context API, and reusable components for interactive web applications.",
+                            "title": "Angular",
+                            "text": "A frontend framework I work with for structured, scalable web projects with TypeScript, reusable components, and organized application architecture.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Una de las tecnologías que más utilizo actualmente. Desarrollo interfaces dinámicas con hooks, context API y componentes reutilizables para aplicaciones web interactivas."
+                            "text": "Framework frontend que utilizo para proyectos web estructuradas y escalables con TypeScript, componentes reutilizables y una arquitectura ordenada."
                         }
                     }
                 },
@@ -444,17 +466,24 @@
                     "id": 6,
                     "img": "",
                     "faIcon": "devicon-nextjs-plain",
-                    "faIconColors": {"bg": "", "fill": "#000000", "fillLight": "#666666"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#000000",
+                        "fillLight": "#666666"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Next.js",
-                            "text": "Along with React Native, it's one of the technologies I'm using the most right now. I apply it in projects that need SSR, SSG, and performance optimization in production.",
+                            "text": "I apply it in projects that need SSR, SSG, and performance optimization in production.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Junto con React Native, es una de las tecnologías que más estoy utilizando actualmente. La aplico en proyectos que necesitan SSR, SSG y optimización de rendimiento en producción."
+                            "text": "Lo aplico en proyectos que necesitan SSR, SSG y optimización de rendimiento en producción."
                         }
                     }
                 },
@@ -462,8 +491,14 @@
                     "id": 7,
                     "img": "",
                     "faIcon": "fa-brands fa-bootstrap",
-                    "faIconColors": {"bg": "", "fill": "#7952B3"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#7952B3"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -472,7 +507,7 @@
                             "level": ""
                         },
                         "es": {
-                            "text": "Lo utilizo ocasionalmente para maquetar interfaces responsivas de forma rápida, aunque en la mayoría de mis proyectos actuales prefiero Tailwind CSS por su flexibilidad."
+                            "text": "Lo utilizo ocasionalmente para maquetar interfaces responsivas de forma rápida."
                         }
                     }
                 },
@@ -480,8 +515,14 @@
                     "id": 8,
                     "img": "",
                     "faIcon": "devicon-tailwindcss-original",
-                    "faIconColors": {"bg": "", "fill": "#06B6D4"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#06B6D4"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -493,34 +534,19 @@
                             "text": "Mi framework de estilos preferido actualmente. Lo utilizo en la mayoría de mis proyectos por su enfoque utility-first que me permite construir interfaces rápidamente con control total del diseño."
                         }
                     }
-                },
-                {
-                    "id": 9,
-                    "img": "",
-                    "faIcon": "devicon-reactnative-original",
-                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "React Native",
-                            "text": "The technology I'm using the most right now. I develop cross-platform mobile apps leveraging my React knowledge to create native experiences on iOS and Android.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "La tecnología que más estoy utilizando actualmente. Desarrollo aplicaciones móviles multiplataforma aprovechando mis conocimientos en React para crear experiencias nativas en iOS y Android."
-                        }
-                    }
                 }
             ]
         },
-
         {
             "id": 4,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Soft Skills"},
-                "es": {"title": "Habilidades Blandas"}
+                "en": {
+                    "title": "Soft Skills"
+                },
+                "es": {
+                    "title": "Habilidades Blandas"
+                }
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -534,8 +560,14 @@
                     "id": 1,
                     "img": "",
                     "faIcon": "fa-solid fa-users-gear",
-                    "faIconColors": {"bg": "", "fill": "#4A90D9"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4A90D9"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -554,8 +586,14 @@
                     "id": 2,
                     "img": "",
                     "faIcon": "fa-solid fa-comments",
-                    "faIconColors": {"bg": "", "fill": "#2ECC71"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#2ECC71"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -574,8 +612,14 @@
                     "id": 3,
                     "img": "",
                     "faIcon": "fa-solid fa-people-group",
-                    "faIconColors": {"bg": "", "fill": "#E67E22"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E67E22"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -594,8 +638,14 @@
                     "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-list-check",
-                    "faIconColors": {"bg": "", "fill": "#9B59B6"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#9B59B6"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -614,8 +664,14 @@
                     "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-puzzle-piece",
-                    "faIconColors": {"bg": "", "fill": "#E74C3C"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#E74C3C"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -634,8 +690,14 @@
                     "id": 6,
                     "img": "",
                     "faIcon": "fa-solid fa-arrows-rotate",
-                    "faIconColors": {"bg": "", "fill": "#1ABC9C"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#1ABC9C"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -652,13 +714,16 @@
                 }
             ]
         },
-
         {
             "id": 5,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Tools"},
-                "es": {"title": "Herramientas"}
+                "en": {
+                    "title": "Tools"
+                },
+                "es": {
+                    "title": "Herramientas"
+                }
             },
             "settings": {
                 "max_items_per_row": 3,
@@ -672,8 +737,14 @@
                     "id": 1,
                     "img": "images/icons/github.svg",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -690,8 +761,14 @@
                     "id": 2,
                     "img": "",
                     "faIcon": "devicon-jira-plain",
-                    "faIconColors": {"bg": "", "fill": "#0052CC"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#0052CC"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -708,8 +785,15 @@
                     "id": 3,
                     "img": "",
                     "faIcon": "devicon-notion-plain",
-                    "faIconColors": {"bg": "", "fill": "#000000", "fillLight": "#666666"},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#000000",
+                        "fillLight": "#666666"
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -723,56 +807,26 @@
                     }
                 },
                 {
-                    "id": 4,
-                    "img": "images/icons/googlecloud.svg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Google Cloud",
-                            "text": "I use services like Cloud Run and Cloud Storage to deploy applications and manage cloud resources in a scalable and cost-effective way.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Utilizo servicios como Cloud Run y Cloud Storage para desplegar aplicaciones y gestionar recursos en la nube de forma escalable y eficiente."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "img": "images/icons/render.svg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "Render",
-                            "text": "I deploy APIs and backend services leveraging its GitHub integration for automatic deployments with each push to the repository.",
-                            "level": ""
-                        },
-                        "es": {
-                            "text": "Despliego APIs y servicios backend aprovechando su integración con GitHub para despliegues automáticos con cada push al repositorio."
-                        }
-                    }
-                },
-                {
                     "id": 6,
                     "img": "images/icons/vercel.svg",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "Vercel",
-                            "text": "My preferred platform for deploying frontend applications with React and Next.js, taking advantage of its automatic branch previews and performance optimization.",
+                            "text": "My preferred platform for deploying frontend projects with Vue and Next.js, taking advantage of its automatic branch previews and performance optimization.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Mi plataforma preferida para desplegar aplicaciones frontend con React y Next.js, aprovechando sus previews automáticas por branch y optimización de rendimiento."
+                            "text": "Mi plataforma preferida para desplegar proyectos frontend con Vue y Next.js, aprovechando sus previews automáticas por branch y optimización de rendimiento."
                         }
                     }
                 },
@@ -780,29 +834,38 @@
                     "id": 7,
                     "img": "images/icons/aws.svg",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "AWS",
-                            "text": "I use services like Aurora, EC2, and S3 for cloud infrastructure, especially Aurora as a managed PostgreSQL database service for production projects.",
+                            "text": "I use services like Lambda, EC2, and S3 for cloud infrastructure and production deployments.",
                             "level": ""
                         },
                         "es": {
-                            "text": "Utilizo servicios como Aurora, EC2 y S3 para infraestructura en la nube, especialmente Aurora como servicio de base de datos PostgreSQL gestionado para proyectos en producción."
+                            "text": "Utilizo servicios como Lambda, EC2 y S3 para infraestructura en la nube y despliegues en producción."
                         }
                     }
                 }
             ]
         },
-
         {
             "id": 6,
             "component": "ArticleSkills",
             "locales": {
-                "en": {"title": "Languages"},
-                "es": {"title": "Idiomas"}
+                "en": {
+                    "title": "Languages"
+                },
+                "es": {
+                    "title": "Idiomas"
+                }
             },
             "settings": {
                 "max_items_per_row": 1,
@@ -816,8 +879,14 @@
                     "id": 1,
                     "img": "images/flags/es.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
@@ -836,19 +905,51 @@
                     "id": 2,
                     "img": "images/flags/en-us.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
                     "percentage": null,
                     "locales": {
                         "en": {
                             "title": "English",
-                            "text": "Technical reading and writing proficiency. Able to read documentation, write code comments, and communicate in professional contexts. Actively improving.",
-                            "level": "A2 – In progress"
+                            "text": "C2 proficiency. I can read, write, and communicate fluently in professional and technical contexts.",
+                            "level": "C2"
                         },
                         "es": {
                             "title": "Inglés",
-                            "text": "Lectura y escritura técnica. Capaz de leer documentación, escribir comentarios de código y comunicarme en contextos profesionales. En mejora activa.",
-                            "level": "A2 – En progreso"
+                            "text": "Nivel C2. Puedo leer, escribir y comunicarme con fluidez en contextos profesionales y técnicos.",
+                            "level": "C2"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/flags/it.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "date": {
+                        "year": null,
+                        "month": null
+                    },
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Italian",
+                            "text": "Conversational speaking ability. I can communicate verbally, but I do not write it fluently.",
+                            "level": "Spoken"
+                        },
+                        "es": {
+                            "title": "Italiano",
+                            "text": "Lo hablo a nivel conversacional, pero no lo escribo con fluidez.",
+                            "level": "Hablado"
                         }
                     }
                 }

@@ -15,7 +15,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -41,7 +40,6 @@
             },
             "items": null
         },
-
         {
             "id": 2,
             "component": "ArticleInfoList",
@@ -50,42 +48,72 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Or if you {{prefer}}..."},
-                "es": {"title": "O si {{prefieres}}..."}
+                "en": {
+                    "title": "Or if you {{prefer}}..."
+                },
+                "es": {
+                    "title": "O si {{prefieres}}..."
+                }
             },
             "items": [
                 {
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+54 11 2567-7573",
-                    "link": {"href": "tel:+541125677573", "tooltipString": "call_me"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "+51 926 320 666",
+                    "link": {
+                        "href": "tel:+51926320666",
+                        "tooltipString": "call_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"}
+                        "en": {
+                            "title": "Phone"
+                        },
+                        "es": {
+                            "title": "Teléfono"
+                        }
                     }
                 },
                 {
                     "id": 2,
                     "faIcon": "fa-solid fa-envelope",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "lms.segovia86@gmail.com",
-                    "link": {"href": "mailto:lms.segovia86@gmail.com", "tooltipString": "email_me"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "omoralespj@gmail.com",
+                    "link": {
+                        "href": "mailto:omoralespj@gmail.com",
+                        "tooltipString": "email_me"
+                    },
                     "copyToClipboardButton": true,
                     "locales": {
-                        "en": {"title": "E-mail"}
+                        "en": {
+                            "title": "E-mail"
+                        }
                     }
                 },
                 {
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@lumseg",
-                    "link": {"href": "https://www.linkedin.com/in/lumseg/", "tooltipString": "open_website"},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "@oskarmorales",
+                    "link": {
+                        "href": "https://www.linkedin.com/in/oskarmorales/",
+                        "tooltipString": "open_website"
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "LinkedIn"}
+                        "en": {
+                            "title": "LinkedIn"
+                        }
                     }
                 }
             ]

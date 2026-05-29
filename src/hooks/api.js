@@ -49,7 +49,7 @@ const validators = {
                 custom_subject: subject,
                 message: message,
                 custom_source: utils.url.getAbsoluteLocation(),
-                custom_source_name: "React Portfolio"
+                custom_source_name: "Oskar Dev Portfolio"
             }
         }
     }
@@ -97,16 +97,5 @@ const analytics = {
      * Here, you can integrate Google Analytics, Mixpanel, or your own custom analytics implementation.
      * @returns {Promise<void>}
      */
-    reportVisit: async() => {
-        await fetch("https://admin.ryanbalieiro.com/api/analytics/mock", {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                params: {
-                    url: utils.url.getRootLocation(),
-                    template_id: "react-portfolio"
-                }
-            })
-        })
-    }
+    reportVisit: async() => {}
 }

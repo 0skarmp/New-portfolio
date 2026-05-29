@@ -15,7 +15,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -28,121 +27,172 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/logo-cargaFlow.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2026, "month": 1},
-                    "dateEnd": {"now": true},
+                    "img": "",
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#4A90E2"
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "dateEnd": {
+                        "year": 2026,
+                        "month": 1
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Mobile Developer",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "CargaFlow",
-                            "text": "Mobile logistics and cargo transportation app connecting requesters with drivers in real time. Full development of backend (NestJS, PostgreSQL, Redis) and cross-platform mobile app:",
+                            "title": "{{Full Stack}} Developer",
+                            "province": "Los Angeles, California",
+                            "country": "United States · Remote",
+                            "institution": "Central Time Developers, Inc. · Full-time",
+                            "text": "Worked on a cloud-native enterprise platform focused on operational management and process automation, contributing across the full-stack workflow:",
                             "list": [
-                                "Real-time communication with WebSockets (Socket.IO)",
-                                "Full-Stack: NestJS + React Native/Expo + PostgreSQL + Redis/Bull",
-                                "Geolocation with Google Maps API and live GPS tracking",
-                                "Authentication with JWT, refresh tokens, OTP and role-based access",
-                                "Dynamic pricing and intelligent proximity-based trip assignment"
+                                "Developed and maintained frontend interfaces and backend services",
+                                "Participated in software analysis, feature planning, and technical implementation",
+                                "Worked remotely with an international team using professional delivery practices",
+                                "Supported integrations and automation-focused business processes"
                             ],
-                            "tags": ["NestJS", "React Native", "PostgreSQL", "Redis", "Socket.IO", "Google Maps"]
+                            "tags": [
+                                "Software Analysis",
+                                "Full Stack",
+                                "Cloud Native",
+                                "Remote"
+                            ]
                         },
                         "es": {
-                            "title": "Desarrollador {{Full-Stack}} Mobile",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "CargaFlow",
-                            "text": "Aplicación móvil de logística y transporte de cargas que conecta solicitantes con conductores en tiempo real. Desarrollo integral del backend (NestJS, PostgreSQL, Redis) y app móvil multiplataforma:",
+                            "title": "Programador {{Full Stack}}",
+                            "province": "Los Angeles, California",
+                            "country": "Estados Unidos · En remoto",
+                            "institution": "Central Time Developers, Inc. · Jornada completa",
+                            "text": "Trabajé en una plataforma empresarial cloud-native enfocada en la gestión operativa y automatización de procesos, participando en el flujo full-stack:",
                             "list": [
-                                "Comunicación en tiempo real con WebSockets (Socket.IO)",
-                                "Full-Stack: NestJS + React Native/Expo + PostgreSQL + Redis/Bull",
-                                "Geolocalización con Google Maps API y tracking GPS en vivo",
-                                "Autenticación con JWT, refresh tokens, OTP y control de acceso por roles",
-                                "Pricing dinámico y asignación inteligente de viajes por proximidad"
+                                "Desarrollé y mantuve interfaces frontend y servicios backend",
+                                "Participé en análisis de software, planificación de funcionalidades e implementación técnica",
+                                "Trabajé en remoto con un equipo internacional bajo prácticas profesionales de entrega",
+                                "Apoyé integraciones y procesos de negocio orientados a automatización"
                             ],
-                            "tags": ["NestJS", "React Native", "PostgreSQL", "Redis", "Socket.IO", "Google Maps"]
+                            "tags": [
+                                "Análisis de software",
+                                "Full Stack",
+                                "Cloud Native",
+                                "Remoto"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "images/pictures/wallmapu-logo.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2025, "month": 11},
-                    "dateEnd": {"year": 2026, "month": 2},
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-simple",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#7A8CA3"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 9
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 3
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Full-Stack}} Mobile Developer",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "Wallmapu",
-                            "text": "Mobile marketplace app for pet products, built with React Native and Expo. Connects customers with retail and wholesale stores specialized in pet products:",
+                            "title": "{{Software}} Analyst",
+                            "province": "Lima",
+                            "country": "Peru · On-site",
+                            "institution": "MONKEY VALLEY E.I.R.L. · Full-time",
+                            "text": "Responsible for building the company transport system with Python and Flask, including API creation and system integrations:",
                             "list": [
-                                "Marketplace mobile app development with geolocation using React Native + TypeScript",
-                                "Scalable backend implementation with NestJS, PostgreSQL, and Supabase, exposing REST API",
-                                "Payment integration with MercadoPago and B2B2C subscription system for local stores",
-                                "Administrative CRM with analytical dashboards for store, product, and sales management",
-                                "Complete purchase flow with multi-store cart and checkout via WhatsApp"
+                                "Designed and implemented backend features using Python and Flask",
+                                "Created APIs and connected internal operational flows",
+                                "Analyzed requirements and translated business needs into technical tasks",
+                                "Collaborated directly on process improvement for transport operations"
                             ],
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "Supabase", "MercadoPago", "TypeScript"]
+                            "tags": [
+                                "Software Analysis",
+                                "Python",
+                                "Flask",
+                                "APIs",
+                                "Internet Software"
+                            ]
                         },
                         "es": {
-                            "title": "Desarrollador {{Full-Stack}} Mobile",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "Wallmapu",
-                            "text": "Aplicación móvil de marketplace para productos de mascotas, desarrollada con React Native y Expo. Conecta a clientes con tiendas minoristas y mayoristas especializadas en productos para mascotas:",
+                            "title": "Analista de {{software}}",
+                            "province": "Lima",
+                            "country": "Perú · Presencial",
+                            "institution": "MONKEY VALLEY E.I.R.L. · Jornada completa",
+                            "text": "Encargado de elaborar el sistema de transportes de la empresa usando Python y Flask, incluyendo creación de APIs e integraciones:",
                             "list": [
-                                "Desarrollo de aplicación móvil tipo marketplace con geolocalización utilizando React Native + TypeScript",
-                                "Implementación de backend escalable con NestJS, PostgreSQL y Supabase, exponiendo API REST",
-                                "Integración de pagos con MercadoPago y sistema de suscripciones B2B2C para tiendas locales",
-                                "Construcción de CRM administrativo con dashboards analíticos para gestión de tiendas, productos y ventas",
-                                "Flujo completo de compra con carrito multi-tienda y checkout a través de WhatsApp"
+                                "Diseñé e implementé funcionalidades backend usando Python y Flask",
+                                "Creé APIs y conecté flujos operativos internos",
+                                "Analicé requerimientos y traduje necesidades del negocio en tareas técnicas",
+                                "Colaboré directamente en la mejora de procesos para operaciones de transporte"
                             ],
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "Supabase", "MercadoPago", "TypeScript"]
+                            "tags": [
+                                "Análisis de software",
+                                "Python",
+                                "Flask",
+                                "APIs",
+                                "Software de internet"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "images/pictures/play-attention.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "dateStart": {"year": 2025, "month": 4},
-                    "dateEnd": {"year": 2025, "month": 5},
+                    "img": "",
+                    "faIcon": "fa-solid fa-code-branch",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": "#00A86B"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 4
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 8
+                    },
                     "locales": {
                         "en": {
-                            "title": "{{Project Manager}}",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "Play Attention",
-                            "text": "Play Attention is a company specialized in developing [[cognitive training technology]] based on neurofeedback. Functional MVP delivered in just 1 month using Scrum agile methodology:",
+                            "title": "{{Full-stack}} Developer",
+                            "province": "",
+                            "country": "Part-time",
+                            "institution": "Multilab · Part-time",
+                            "text": "Responsible for technology migration tasks using NestJS and Next.js:",
                             "list": [
-                                "Led a multidisciplinary team of 10 people",
-                                "Coordinated tasks, objectives, and on-time sprint deliveries, fostering collaboration between technical profiles using Scrum agile methodology",
-                                "Supervised the complete development of a landing page, an admin panel, and a CRM system",
-                                "Managed daily meetings (stand-ups) and team blocker resolution",
-                                "Focused on delivering functional and scalable solutions within a 1-month MVP deadline"
+                                "Worked on migration tasks between technologies",
+                                "Supported backend and frontend updates with NestJS and Next.js",
+                                "Collaborated on technical adjustments to improve project continuity"
                             ],
-                            "tags": ["Scrum", "Jira", "Leadership", "CRM", "Landing Page"]
+                            "tags": [
+                                "Full Stack",
+                                "NestJS",
+                                "Next.js",
+                                "Technology Migration"
+                            ]
                         },
                         "es": {
-                            "title": "{{Project Manager}}",
-                            "province": "Buenos Aires",
-                            "country": "Argentina",
-                            "institution": "Play Attention",
-                            "text": "Play Attention es una empresa especializada en el desarrollo de [[tecnología de entrenamiento cognitivo]] basada en neurofeedback. MVP funcional entregado en solo 1 mes con metodología ágil Scrum:",
+                            "title": "{{Full-stack}} Developer",
+                            "province": "",
+                            "country": "Jornada parcial",
+                            "institution": "Multilab · Jornada parcial",
+                            "text": "Encargado de realizar migraciones de tecnología con NestJS y Next.js:",
                             "list": [
-                                "Lideré un equipo multidisciplinario de 10 personas",
-                                "Coordiné tareas, objetivos y entregas en tiempo (sprint), fomentando la colaboración entre perfiles técnicos bajo metodología ágil Scrum",
-                                "Supervisé el desarrollo completo de una landing page, un panel administrativo y un sistema CRM",
-                                "Gestioné reuniones diarias (stand-ups) y resolución de bloqueos en equipo",
-                                "Enfocado en entregar soluciones funcionales y escalables en un plazo de 1 mes para el MVP"
+                                "Trabajé en tareas de migración entre tecnologías",
+                                "Apoyé actualizaciones backend y frontend con NestJS y Next.js",
+                                "Colaboré en ajustes técnicos para mejorar la continuidad del proyecto"
                             ],
-                            "tags": ["Scrum", "Jira", "Liderazgo", "CRM", "Landing Page"]
+                            "tags": [
+                                "Full Stack",
+                                "NestJS",
+                                "Next.js",
+                                "Migración tecnológica"
+                            ]
                         }
                     }
                 }

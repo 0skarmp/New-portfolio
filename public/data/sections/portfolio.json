@@ -15,7 +15,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -23,17 +22,17 @@
             "locales": {
                 "en": {
                     "category_all": "All",
-                    "category_projects": "Projects",
-                    "category_demos": "Demos"
+                    "category_projects": "Projects"
                 },
                 "es": {
                     "category_all": "Todos",
-                    "category_projects": "Proyectos",
-                    "category_demos": "Demos"
+                    "category_projects": "Proyectos"
                 }
             },
             "settings": {
-                "categorize_by": ["category_projects", "category_demos"],
+                "categorize_by": [
+                    "category_projects"
+                ],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
@@ -41,80 +40,65 @@
                 {
                     "id": 1,
                     "categoryId": "category_projects",
-                    "img": "images/pictures/logo-cargaFlow.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "img": "",
+                    "faIcon": "fa-solid fa-layer-group",
+                    "faIconColors": {
+                        "bg": "#0F172A",
+                        "fill": "#22C55E"
+                    },
                     "preview": {
-                        "links": [],
-                        "screenshots": [
-                            "imgCargaFlow/iPhone 13 & 14 - 1.svg",
-                            "imgCargaFlow/Cargaflow.svg",
-                            "imgCargaFlow/Solicita tu envio 2.svg",
-                            "imgCargaFlow/Solicita tu envio 4.svg",
-                            "imgCargaFlow/Solicita tu envio 9.svg",
-                            "imgCargaFlow/Actvidad.svg"
+                        "links": [
+                            {
+                                "href": "https://www.zynfy.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
-                        "screenshotsAspectRatio": "9:16",
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "CargaFlow",
-                            "text": "<b>Full-Stack mobile app</b> for cargo logistics connecting shippers with carriers in real time. Built with <b>NestJS</b> and <b>React Native</b>. Features real-time tracking via <b>WebSockets</b>, geolocation with <b>Google Maps</b>, JWT authentication, and dynamic pricing.",
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "WebSockets"]
+                            "title": "Zynfy",
+                            "text": "Real deployed web project. I worked on a production platform built with <b>.NET</b>, <b>Docker</b>, and <b>Vue</b>. The source code is private.",
+                            "tags": [
+                                "Real Project",
+                                ".NET",
+                                "Docker",
+                                "Vue",
+                                "Private Code"
+                            ]
                         },
                         "es": {
-                            "title": "CargaFlow",
-                            "text": "<b>App móvil Full-Stack</b> de logística de carga que conecta solicitantes con transportistas en tiempo real. Desarrollada con <b>NestJS</b> y <b>React Native</b>. Incluye seguimiento en tiempo real con <b>WebSockets</b>, geolocalización con <b>Google Maps</b>, autenticación JWT y precios dinámicos.",
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "WebSockets"]
+                            "title": "Zynfy",
+                            "text": "Proyecto real desplegado en web. Trabajé en una plataforma de producción construida con <b>.NET</b>, <b>Docker</b> y <b>Vue</b>. El código fuente es privado.",
+                            "tags": [
+                                "Proyecto real",
+                                ".NET",
+                                "Docker",
+                                "Vue",
+                                "Código privado"
+                            ]
                         }
                     }
                 },
                 {
                     "id": 2,
                     "categoryId": "category_projects",
-                    "img": "images/pictures/wallmapu-logo.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "preview": {
-                        "links": [
-                            {"href": "https://wall-mapuapi-production.up.railway.app/api/docs", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/LumDev86/Wall-MapuApi", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
-                        ],
-                        "screenshots": [
-                            "imgWallMapu/Inicio.svg",
-                            "imgWallMapu/catalogo.svg",
-                            "imgWallMapu/Detalle de busqueda.svg",
-                            "imgWallMapu/Detalle de priducto.svg",
-                            "imgWallMapu/Detalle-tienda.svg",
-                            "imgWallMapu/maps.svg"
-                        ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Wallmapu",
-                            "text": "<b>Full-Stack mobile app</b> — pet products marketplace connecting local pet shops with customers. Built with <b>NestJS</b> and <b>React Native</b>. Includes geolocation via <b>PostGIS</b>, <b>MercadoPago</b> payments, role-based JWT auth, and <b>Redis</b> caching.",
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "MercadoPago"]
-                        },
-                        "es": {
-                            "title": "Wallmapu",
-                            "text": "<b>App móvil Full-Stack</b> — marketplace de productos para mascotas que conecta pet shops locales con clientes. Desarrollada con <b>NestJS</b> y <b>React Native</b>. Incluye geolocalización con <b>PostGIS</b>, pagos con <b>MercadoPago</b>, autenticación JWT con roles y caché <b>Redis</b>.",
-                            "tags": ["React Native", "NestJS", "PostgreSQL", "MercadoPago"]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "categoryId": "category_demos",
                     "img": "",
-                    "faIcon": "fa-solid fa-building-columns",
-                    "faIconColors": {"bg": "#2C2C2C", "fill": "#E8D5B7"},
+                    "faIcon": "fa-solid fa-cloud",
+                    "faIconColors": {
+                        "bg": "#111827",
+                        "fill": "#60A5FA"
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://architex-duo-template.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/LumDev86/architex-duo-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {
+                                "href": "https://www.hera.app/?utm_source=chatgpt.com",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
                         ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
@@ -122,42 +106,28 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Architex Duo",
-                            "text": "Modern and responsive <b>web template</b> for architecture and interior design studios. Minimalist aesthetic with large imagery and <b>intuitive navigation</b> across all devices.",
-                            "tags": ["Web", "Template", "Responsive", "Design"]
+                            "title": "Hera",
+                            "text": "Real deployed web project. I contributed to a production platform using <b>Vue</b>, <b>AWS</b>, <b>TypeScript</b>, and <b>Python</b>. The source code is private.",
+                            "tags": [
+                                "Real Project",
+                                "Vue",
+                                "AWS",
+                                "TypeScript",
+                                "Python",
+                                "Private Code"
+                            ]
                         },
                         "es": {
-                            "title": "Architex Duo",
-                            "text": "<b>Plantilla web</b> moderna y responsiva para estudios de arquitectura y diseño interior. Estética minimalista con imágenes destacadas y <b>navegación intuitiva</b> en todos los dispositivos.",
-                            "tags": ["Web", "Template", "Responsive", "Diseño"]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "categoryId": "category_demos",
-                    "img": "",
-                    "faIcon": "fa-solid fa-burger",
-                    "faIconColors": {"bg": "#D32F2F", "fill": "#FFC107"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://fast-food-app-livid.vercel.app/", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "https://github.com/LumDev86/fastFoodApp", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
-                        ],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Fast Food App",
-                            "text": "<b>Web application</b> simulating a fast food ordering system. Attractive interface for browsing and selecting menu items with <b>responsive navigation</b>. Deployed on Vercel.",
-                            "tags": ["Frontend", "Web App", "Vercel"]
-                        },
-                        "es": {
-                            "title": "Fast Food App",
-                            "text": "<b>Aplicación web</b> que simula un sistema de pedidos de comida rápida. Interfaz atractiva para explorar y seleccionar del menú con <b>navegación responsiva</b>. Desplegada en Vercel.",
-                            "tags": ["Frontend", "Web App", "Vercel"]
+                            "title": "Hera",
+                            "text": "Proyecto real desplegado en web. Participé en una plataforma de producción usando <b>Vue</b>, <b>AWS</b>, <b>TypeScript</b> y <b>Python</b>. El código fuente es privado.",
+                            "tags": [
+                                "Proyecto real",
+                                "Vue",
+                                "AWS",
+                                "TypeScript",
+                                "Python",
+                                "Código privado"
+                            ]
                         }
                     }
                 }

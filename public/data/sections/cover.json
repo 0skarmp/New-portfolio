@@ -5,17 +5,16 @@
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Lucas Segovia!}}"
+                "title_long": "I'm {{Oskar Morales!}}"
             },
             "es": {
                 "title_short": "¡Bienvenido!",
                 "title_short_nav": "Sobre mí",
                 "title_long_prefix": "Hola...",
-                "title_long": "Soy {{Lucas Segovia!}}"
+                "title_long": "Soy {{Oskar Morales!}}"
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -29,31 +28,43 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Buenos Aires – Argentina",
-                    "link": {"href": "", "tooltipString": ""},
+                    "label": "Lima - Peru",
+                    "link": {
+                        "href": "",
+                        "tooltipString": ""
+                    },
                     "faIcon": "pi pi-map-marker"
                 },
                 {
                     "id": 2,
-                    "label": "lms.segovia86@gmail.com",
-                    "link": {"href": "mailto:lms.segovia86@gmail.com", "tooltipString": "email_me"},
+                    "label": "omoralespj@gmail.com",
+                    "link": {
+                        "href": "mailto:omoralespj@gmail.com",
+                        "tooltipString": "email_me"
+                    },
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
                     "id": 3,
-                    "label": "@LumDev86",
-                    "link": {"href": "https://github.com/LumDev86", "tooltipString": "see_on_github"},
+                    "label": "@0skarmp",
+                    "link": {
+                        "href": "https://github.com/0skarmp",
+                        "tooltipString": "see_on_github"
+                    },
                     "faIcon": "fa-brands fa-github"
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleText",
             "locales": {
-                "en": {"title": "{{A little bit}} about me..."},
-                "es": {"title": "{{Un poco}} sobre mí..."}
+                "en": {
+                    "title": "{{A little bit}} about me..."
+                },
+                "es": {
+                    "title": "{{Un poco}} sobre mí..."
+                }
             },
             "settings": {
                 "order_items_by": "id",
@@ -64,124 +75,21 @@
                     "id": 1,
                     "img": "images/pictures/about-texts-image-1.png",
                     "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
-                            "text": "<p>I'm a {{Full Stack Developer}} specialized in building {{web and mobile applications}} with {{JavaScript}}, {{TypeScript}}, {{React}}, {{React Native}}, and {{NestJS}}. I handle the [[entire development cycle]] — from backend architecture to user interface.</p><p>I've built apps with [[real-time tracking]], integrated payments, geolocation, and user management — solutions already running in production. I've also led teams as [[Project Manager]], applying {{Scrum}} to deliver results on tight deadlines.</p><p>I'm looking for opportunities to keep growing professionally, whether joining a {{development team}} or collaborating on projects as a freelancer. [[Let's connect!]]</p>"
+                            "text": "<p>{{Full Stack Developer}} with experience integrating {{Artificial Intelligence models}} such as {{OpenAI GPT-4}}, {{Claude}}, {{Gemini}}, and {{Amazon Q}} into web and backend solutions.</p><p>Specialized in [[prompt design and optimization]], process automation with {{LLMs}}, and consumption of {{AI APIs}}. Experienced with [[cloud-native architectures on AWS]], REST APIs, and scalable frontend development.</p>"
                         },
                         "es": {
-                            "text": "<p>Soy {{Desarrollador Full Stack}} especializado en crear {{aplicaciones web y mobile}} con {{JavaScript}}, {{TypeScript}}, {{React}}, {{React Native}} y {{NestJS}}. Me encargo del [[ciclo completo de desarrollo]] — desde la arquitectura del backend hasta la interfaz de usuario.</p><p>He desarrollado apps con [[seguimiento en tiempo real]], pagos integrados, geolocalización y gestión de usuarios — soluciones que ya están funcionando en producción. También lideré equipos como [[Project Manager]], aplicando {{Scrum}} para cumplir objetivos en plazos ajustados.</p><p>Busco oportunidades para seguir creciendo profesionalmente, ya sea sumándome a un {{equipo de desarrollo}} o colaborando en proyectos como freelancer. [[¡Conectemos!]]</p>"
+                            "text": "Desarrollador Web Full Stack con experiencia en Vue.js, AWS, Node.js y Python, especializado en la creación de aplicaciones cloud-native y orientadas a eventos. Sólida experiencia en arquitecturas serverless, APIs REST y GraphQL, y desarrollo de frontends escalables y de alto rendimiento"
                         }
                     }
                 }
             ]
         },
-
-        {
-            "id": 3,
-            "component": "ArticleTestimonials",
-            "locales": {
-                "en": {"title": "{{Recommendations}}"},
-                "es": {"title": "{{Recomendaciones}}"}
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc"
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "label": "Matias Badano",
-                    "link": {"href": "https://www.linkedin.com/in/matiasjb95/", "tooltipString": "open_website"},
-                    "img": "images/avatar/matias-badano.jpg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Backend Developer Java | [[QA Tester]]",
-                            "text": "I had the opportunity to share a team with Lucas during a development project where he served as Project Manager. His management was excellent, standing out for his [[support across all work areas]] and his ability to keep the team aligned and focused on objectives. His clear and concise communication was key to facilitating organization and collaboration between different roles. He is undoubtedly a [[committed professional]] with great leadership skills and a comprehensive vision of teamwork."
-                        },
-                        "es": {
-                            "title": "Desarrollador Backend Java | [[QA Tester]]",
-                            "text": "Tuve la oportunidad de compartir equipo con Lucas durante un proyecto de desarrollo en el que se desempeñó como Project Manager. Su gestión fue excelente, destacándose por el [[acompañamiento a todas las áreas de trabajo]] y por su capacidad para mantener al equipo alineado y enfocado en los objetivos. Su comunicación clara y concisa fue clave para facilitar la organización y la colaboración entre los distintos roles. Sin duda, es un [[profesional comprometido]], con grandes habilidades de liderazgo y una visión integral del trabajo en equipo."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "label": "Rene Silva Carrillo",
-                    "link": {"href": "https://www.linkedin.com/in/vmc555/", "tooltipString": "open_website"},
-                    "img": "images/avatar/rene-silva-carrillo.jpg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "System Analyst | Software Developer | [[Team Leader]]",
-                            "text": "It is a true pleasure to highly recommend Lucas Matías Segovia. During the project we carried out together, he demonstrated not only [[solid technical knowledge]] but also outstanding leadership characterized by humility, making him an authentic and highly valuable professional. In his role as Project Manager, Lucas showed the character to guide the team, make sound decisions, and always keep the focus on objectives. His [[problem-solving attitude]] and willingness to listen and collaborate made a significant difference."
-                        },
-                        "es": {
-                            "title": "System Analyst | Software Developer | [[Team Leader]]",
-                            "text": "Es un verdadero placer recomendar ampliamente a Lucas Matías Segovia. Durante el proyecto que llevamos a cabo en colaboración, demostró no solo [[sólidos conocimientos técnicos]], sino también una destacada capacidad de liderazgo caracterizada por su humildad. En su rol de Project Manager, Lucas se mostró con carácter para guiar al equipo, tomar decisiones acertadas y mantener siempre el foco en los objetivos. Su [[actitud resolutiva]] y su disposición para escuchar y colaborar hicieron una diferencia significativa en la dinámica del grupo."
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "label": "Gabriela Patiño",
-                    "link": {"href": "https://www.linkedin.com/in/gabyp05/", "tooltipString": "open_website"},
-                    "img": "images/avatar/gabriela-patiño.jpg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Frontend Developer Jr. | [[QA Funcional]]",
-                            "text": "Absolutely [[excellent with team management]] and organization!"
-                        },
-                        "es": {
-                            "title": "Frontend Developer Jr. | [[QA Funcional]]",
-                            "text": "¡Súper [[excelente con la gestión de equipos]] y organización!"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "label": "Agostina Roggero",
-                    "link": {"href": "https://www.linkedin.com/in/agostina-roggero/", "tooltipString": "open_website"},
-                    "img": "images/avatar/agostina-roggero.jpg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "[[QA Manual]]",
-                            "text": "I had the opportunity to have Lucas as PM in a project with daily progress deliveries. His [[organization and leadership]] greatly helped the team stay motivated and perform in the agile environment we worked in. There were many features and limited time, yet he created a plan that ensured deadlines were met. He has great [[technical knowledge]] across different tools, processes, and technologies. He always fostered good communication, teamwork, and continuous improvement."
-                        },
-                        "es": {
-                            "title": "[[QA Manual]]",
-                            "text": "Tuve la oportunidad de tener a Lucas como PM en un proyecto donde la entrega de avances era diaria. Su [[organización y liderazgo]] ayudó mucho al equipo a mantenerse motivado y desenvolverse en el entorno ágil en el que trabajamos. Las funcionalidades eran muchas y el tiempo era limitado, a pesar de eso, realizó una planificación que permitió el cumplimiento de plazos. Posee un gran [[conocimiento técnico]] en diferentes herramientas, procesos y tecnologías. Siempre fomentó una buena comunicación, el trabajo en equipo y la mejora continua."
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "label": "Diego Yako",
-                    "link": {"href": "https://www.linkedin.com/in/diegoyako/", "tooltipString": "open_website"},
-                    "img": "images/avatar/diego-yako.jpg",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "UX/UI Designer | [[Web Designer]]",
-                            "text": "Lucas was my Project Manager at No Country, he was a [[great leader]] and helped us organize our tasks. He was always attentive to all our needs and what the project required. His [[development knowledge]] is a huge plus, as he understood very well what was being discussed in terms of features, what needed to be done, how long it would take, and what the development priorities should be. Thank you so much Lucas!"
-                        },
-                        "es": {
-                            "title": "Diseñador UX/UI | [[Web Designer]]",
-                            "text": "Lucas fue mi Project Manager en No Country, fue un [[gran líder]] y nos ayudó a organizar nuestras tareas. Siempre estuvo atento a todas nuestras necesidades y a lo que el proyecto requería. Sus [[conocimientos de desarrollo]] son un gran plus, ya que entendía muy bien de lo que se hablaba en cuanto a funcionalidades, lo que se debía realizar, cuánto tiempo demoraría y cuáles serían las prioridades de desarrollo. ¡Muchas gracias Lucas!"
-                        }
-                    }
-                }
-            ]
-        },
-
         {
             "id": 4,
             "component": "ArticleInfoList",
@@ -190,16 +98,26 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Currently {{exploring}}"},
-                "es": {"title": "Actualmente {{explorando}}"}
+                "en": {
+                    "title": "Currently {{exploring}}"
+                },
+                "es": {
+                    "title": "Actualmente {{explorando}}"
+                }
             },
             "items": [
                 {
                     "id": 1,
                     "faIcon": "fa-solid fa-gears",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
@@ -215,9 +133,15 @@
                 {
                     "id": 2,
                     "faIcon": "fa-solid fa-bug",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
@@ -233,9 +157,15 @@
                 {
                     "id": 3,
                     "faIcon": "fa-solid fa-server",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
@@ -251,9 +181,15 @@
                 {
                     "id": 4,
                     "faIcon": "fa-solid fa-wand-magic-sparkles",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
@@ -269,18 +205,24 @@
                 {
                     "id": 5,
                     "faIcon": "fa-solid fa-cloud",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "label": null,
-                    "link": {"href": null, "tooltipString": null},
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {
                             "title": "{{Cloud}} Computing",
-                            "text": "Working with cloud platforms like AWS, GCP, and Azure for deploying and managing production applications."
+                            "text": "Working with cloud platforms like AWS, GCP, and Azure for deploying and managing production environments."
                         },
                         "es": {
                             "title": "{{Cloud}} Computing",
-                            "text": "Trabajando con plataformas cloud como AWS, GCP y Azure para desplegar y gestionar aplicaciones en producción."
+                            "text": "Trabajando con plataformas cloud como AWS, GCP y Azure para desplegar y gestionar entornos de producción."
                         }
                     }
                 }
