@@ -108,6 +108,30 @@
             "items": [
                 {
                     "id": 1,
+                    "faIcon": "devicon-threejs-original",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": null,
+                    "link": {
+                        "href": null,
+                        "tooltipString": null
+                    },
+                    "copyToClipboardButton": false,
+                    "locales": {
+                        "en": {
+                            "title": "{{ThreeJS}}",
+                            "text": "Exploring interactive 3D experiences for modern web interfaces and creative frontend projects."
+                        },
+                        "es": {
+                            "title": "{{ThreeJS}}",
+                            "text": "Explorando experiencias 3D interactivas para interfaces web modernas y proyectos frontend creativos."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
                     "faIcon": "fa-solid fa-gears",
                     "faIconColors": {
                         "bg": "",
@@ -131,7 +155,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "faIcon": "fa-solid fa-bug",
                     "faIconColors": {
                         "bg": "",
@@ -155,7 +179,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "faIcon": "fa-solid fa-server",
                     "faIconColors": {
                         "bg": "",
@@ -179,7 +203,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "faIcon": "fa-solid fa-wand-magic-sparkles",
                     "faIconColors": {
                         "bg": "",
@@ -203,7 +227,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "faIcon": "fa-solid fa-cloud",
                     "faIconColors": {
                         "bg": "",
